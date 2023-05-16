@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Índice de Fracasso de Novas Contratações</title>
+  <link href="https://ferramentasitalents.github.io/indice-fracasso-contratacoes/style.css" rel="stylesheet" />
+  <script src="https://ferramentasitalents.github.io/indice-fracasso-contratacoes/scripts.js"></script>
+</head>
+<body>
+  <div id="calculator">
+    <form onsubmit="calculateIndex(); return false;">
+      <label>Número de novas contratações fracassadas:</label>
+      <input type="number" id="fracassadas" required>
+      <br>
+      <br>
+      <label>Número total de novas contratações no período:</label>
+      <input type="number" id="total" required>
+      <button type="submit">CALCULAR</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
 
